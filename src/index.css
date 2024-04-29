@@ -1,0 +1,50 @@
+
+*{
+  font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Cards{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  gap : 10px;
+}
+
+.card{
+  height : 400px;
+  width : 250px;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  flex-direction : column;
+  gap : 10px;
+  background-color: rgb(240, 237, 237);
+  border : 1px solid black;
+  
+}
+
+.image{
+  position : relative;
+}
+
+.image img{
+  /* height : 300px; */
+  width : 250px;
+}
+
+.cost{
+  background-color : rgb(0, 185, 77);
+  color : white;
+  position : absolute;
+  z-index : 10;
+  right : 0;
+  top : 0;
+}
+
+.title{
+  font-weight : 500;
+}
+
+.card p{
+  overflow : hidden;
+}
